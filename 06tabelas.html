@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="António Andrade">
+    <meta name="description" content="HTML CLASS - Tabelas">
+    <meta name="keywords" content="table, tr, th, td, colspan, rowspan">
+    <title>HTML CLASS - Tabelas</title>
+</head>
+<body>
+    <h1>HTML CLASS - Tabelas</h1>
+    
+    <hr>
+    <h2>Criar tabelas</h2>
+    <table width="60%" border="1">
+        <!-- Linha -->
+        <tr> 
+            <!-- Colunas th (header só na primeira linha) -->
+            <th>Nome</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>António Andrade</td>
+            <td>antonio.andrade2ae-salvaterra.pt</td>
+        </tr>
+        <tr>
+            <td>Mário Costa</td>
+            <td>mario.costa@ae-salvaterra.pt</td>
+        </tr>
+
+    </table>
+
+    <h2>Juntar colunas</h2>
+
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th colspan="2">Localidade</th>
+        </tr>
+        <tr>
+            <td>António Andrade</td>
+            <td>antonio.andrade2ae-salvaterra.pt</td>
+            <td>2120-154</td>
+            <td>Salvaterra de Magos</td>
+        </tr>
+        <tr>
+            <td>Mário Costa</td>
+            <td>mario.costa@ae-salvaterra.pt</td>
+            <td>2130-051</td>
+            <td>Benavente</td>
+        </tr>
+
+    </table>
+
+    <h2>Juntar linhas</h2>
+
+    <table border="1">
+        <tr>
+            <th rowspan="3">Professores</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th colspan="2">Localidade</th>
+        </tr>
+        <tr>
+            <td>António Andrade</td>
+            <td>antonio.andrade2ae-salvaterra.pt</td>
+            <td>2120-154</td>
+            <td>Salvaterra de Magos</td>
+        </tr>
+        <tr>
+            <td>Mário Costa</td>
+            <td>mario.costa@ae-salvaterra.pt</td>
+            <td>2130-051</td>
+            <td>Benavente</td>
+        </tr>
+
+    </table>
+
+
+
+    
+
+    
+</body>
+</html>
